@@ -2,11 +2,63 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>AnythingViral</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Anything Viral</title>
+<link rel="icon" type="image/png" href="app_icon.png">
+<link rel="apple-touch-icon" href="app_icon.png">
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-<h1>AnythingViral</h1>
-<p><a href="terms.html">Terms of Service</a></p>
-<p><a href="privacy.html">Privacy Policy</a></p>
+<header class="site"><div class="wrap">
+<a class="brand" href="index.html"><img src="app_icon.png" alt="Anything Viral logo"><span>Anything Viral</span></a>
+<nav><a href="index.html">Home</a><a href="terms.html">Terms of Service</a><a href="privacy.html">Privacy Policy</a></nav>
+</div></header>
+<main>
+<div class="wrap">
+<div class="hero">
+<img src="app_icon.png" alt="Anything Viral logo">
+<h1>Anything Viral</h1>
+<p>A personal automation tool that publishes original short-form videos to its operator's own TikTok account.</p>
+</div>
+
+<section>
+<h2>What it does</h2>
+<p>Anything Viral helps one creator keep a steady posting schedule. It takes a finished video file, connects to the creator's TikTok account with their permission, and publishes the video with a caption, so posting does not depend on doing it by hand every time.</p>
+</section>
+
+<section>
+<h2>How it works</h2>
+<ol class="steps">
+<li><b>Connect.</b> The operator signs in with TikTok using Login Kit and approves access to their own account.</li>
+<li><b>Prepare.</b> An original video and caption are prepared ahead of time.</li>
+<li><b>Publish.</b> The Content Posting API uploads the video and posts it directly to the operator's own profile.</li>
+<li><b>Confirm.</b> The tool checks the publish status so the operator knows the post went through.</li>
+</ol>
+</section>
+
+<section>
+<h2>TikTok features used</h2>
+<div class="grid">
+<div class="card"><h3>Login Kit</h3><p>Lets the operator sign in and authorize the app for their own TikTok account.</p></div>
+<div class="card"><h3>Content Posting API</h3><p>Uploads and publishes the operator's own original videos with Direct Post.</p></div>
+<div class="card"><h3>Profile scopes</h3><p>Reads basic profile and account stats so the operator can see how their own content performs.</p></div>
+</div>
+</section>
+
+<section>
+<h2>Your data</h2>
+<p>Anything Viral is used only by its operator and does not collect, store, or share personal data belonging to anyone else. Access tokens are stored privately by the operator. Read the full <a href="privacy.html">Privacy Policy</a> and <a href="terms.html">Terms of Service</a>.</p>
+</section>
+
+<section>
+<h2>Contact</h2>
+<p>For questions, contact the operator through the associated TikTok profile.</p>
+</section>
+</div>
+</main>
+<footer class="site"><div class="wrap">
+<a href="terms.html">Terms of Service</a><a href="privacy.html">Privacy Policy</a>
+<div style="margin-top:8px">&copy; 2026 Anything Viral. A personal content automation tool.</div>
+</div></footer>
 </body>
 </html>

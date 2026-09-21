@@ -2,15 +2,29 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>TikTok Auth Callback</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>TikTok Authorization - Anything Viral</title>
+<link rel="icon" type="image/png" href="app_icon.png">
+<link rel="apple-touch-icon" href="app_icon.png">
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
+<header class="site"><div class="wrap">
+<a class="brand" href="index.html"><img src="app_icon.png" alt="Anything Viral logo"><span>Anything Viral</span></a>
+<nav><a href="index.html">Home</a><a href="terms.html">Terms of Service</a><a href="privacy.html">Privacy Policy</a></nav>
+</div></header>
+<main class="doc"><div class="wrap">
 <h1>TikTok Authorization</h1>
 <p>Copy the code below back to Jeenix:</p>
-<pre id="code" style="font-size:20px;padding:10px;background:#eee;"></pre>
+<pre id="code"></pre>
 <script>
 const params = new URLSearchParams(window.location.search);
 document.getElementById('code').textContent = params.get('code') || '(no code found in URL)';
 </script>
+</div></main>
+<footer class="site"><div class="wrap">
+<a href="terms.html">Terms of Service</a><a href="privacy.html">Privacy Policy</a>
+<div style="margin-top:8px">&copy; 2026 Anything Viral. A personal content automation tool.</div>
+</div></footer>
 </body>
 </html>
